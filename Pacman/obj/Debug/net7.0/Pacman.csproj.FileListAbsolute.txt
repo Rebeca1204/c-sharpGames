@@ -1,0 +1,15 @@
+/workspaces/C-Games/Pacman/bin/Debug/net7.0/Pacman
+/workspaces/C-Games/Pacman/bin/Debug/net7.0/Pacman.deps.json
+/workspaces/C-Games/Pacman/bin/Debug/net7.0/Pacman.runtimeconfig.json
+/workspaces/C-Games/Pacman/bin/Debug/net7.0/Pacman.dll
+/workspaces/C-Games/Pacman/bin/Debug/net7.0/Pacman.pdb
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.csproj.AssemblyReference.cache
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.AssemblyInfoInputs.cache
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.AssemblyInfo.cs
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.csproj.CoreCompileInputs.cache
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.dll
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/refint/Pacman.dll
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.pdb
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/Pacman.genruntimeconfig.cache
+/workspaces/C-Games/Pacman/obj/Debug/net7.0/ref/Pacman.dll
