@@ -1,5 +1,5 @@
 ﻿using System;
-/* Implementation of a console game like hangman */
+/* Implementation of a console game like hangman with some especified words*/
 
 string[] hangs = {
     @"      ╔═══╗   " + '\n' +
