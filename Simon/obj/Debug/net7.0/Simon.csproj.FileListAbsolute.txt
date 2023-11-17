@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.csproj.AssemblyReference.cache
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.AssemblyInfo.cs
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/Simon/bin/Debug/net7.0/Simon
+/workspaces/c-sharpGames/Simon/bin/Debug/net7.0/Simon.deps.json
+/workspaces/c-sharpGames/Simon/bin/Debug/net7.0/Simon.runtimeconfig.json
+/workspaces/c-sharpGames/Simon/bin/Debug/net7.0/Simon.dll
+/workspaces/c-sharpGames/Simon/bin/Debug/net7.0/Simon.pdb
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.dll
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/refint/Simon.dll
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.pdb
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/Simon.genruntimeconfig.cache
+/workspaces/c-sharpGames/Simon/obj/Debug/net7.0/ref/Simon.dll
