@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/RockPaperScissors/bin/Debug/net7.0/RockPaperScissors
+/workspaces/c-sharpGames/RockPaperScissors/bin/Debug/net7.0/RockPaperScissors.deps.json
+/workspaces/c-sharpGames/RockPaperScissors/bin/Debug/net7.0/RockPaperScissors.runtimeconfig.json
+/workspaces/c-sharpGames/RockPaperScissors/bin/Debug/net7.0/RockPaperScissors.dll
+/workspaces/c-sharpGames/RockPaperScissors/bin/Debug/net7.0/RockPaperScissors.pdb
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.csproj.AssemblyReference.cache
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.AssemblyInfo.cs
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.dll
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/refint/RockPaperScissors.dll
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.pdb
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/RockPaperScissors.genruntimeconfig.cache
+/workspaces/c-sharpGames/RockPaperScissors/obj/Debug/net7.0/ref/RockPaperScissors.dll
