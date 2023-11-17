@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.csproj.AssemblyReference.cache
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.AssemblyInfo.cs
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/Quiz/bin/Debug/net7.0/Quiz
+/workspaces/c-sharpGames/Quiz/bin/Debug/net7.0/Quiz.deps.json
+/workspaces/c-sharpGames/Quiz/bin/Debug/net7.0/Quiz.runtimeconfig.json
+/workspaces/c-sharpGames/Quiz/bin/Debug/net7.0/Quiz.dll
+/workspaces/c-sharpGames/Quiz/bin/Debug/net7.0/Quiz.pdb
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.dll
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/refint/Quiz.dll
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.pdb
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/Quiz.genruntimeconfig.cache
+/workspaces/c-sharpGames/Quiz/obj/Debug/net7.0/ref/Quiz.dll
