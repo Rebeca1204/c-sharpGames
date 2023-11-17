@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.csproj.AssemblyReference.cache
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.AssemblyInfo.cs
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/Hangman/bin/Debug/net7.0/Hangman
+/workspaces/c-sharpGames/Hangman/bin/Debug/net7.0/Hangman.deps.json
+/workspaces/c-sharpGames/Hangman/bin/Debug/net7.0/Hangman.runtimeconfig.json
+/workspaces/c-sharpGames/Hangman/bin/Debug/net7.0/Hangman.dll
+/workspaces/c-sharpGames/Hangman/bin/Debug/net7.0/Hangman.pdb
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.dll
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/refint/Hangman.dll
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.pdb
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/Hangman.genruntimeconfig.cache
+/workspaces/c-sharpGames/Hangman/obj/Debug/net7.0/ref/Hangman.dll
