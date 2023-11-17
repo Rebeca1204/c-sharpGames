@@ -1,0 +1,15 @@
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.csproj.AssemblyReference.cache
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.AssemblyInfoInputs.cache
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.AssemblyInfo.cs
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.csproj.CoreCompileInputs.cache
+/workspaces/C-Games/TicTacToe/bin/Debug/net7.0/TicTacToe
+/workspaces/C-Games/TicTacToe/bin/Debug/net7.0/TicTacToe.deps.json
+/workspaces/C-Games/TicTacToe/bin/Debug/net7.0/TicTacToe.runtimeconfig.json
+/workspaces/C-Games/TicTacToe/bin/Debug/net7.0/TicTacToe.dll
+/workspaces/C-Games/TicTacToe/bin/Debug/net7.0/TicTacToe.pdb
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.dll
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/refint/TicTacToe.dll
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.pdb
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/TicTacToe.genruntimeconfig.cache
+/workspaces/C-Games/TicTacToe/obj/Debug/net7.0/ref/TicTacToe.dll
