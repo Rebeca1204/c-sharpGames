@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/GuessANumber/bin/Debug/net7.0/GuessANumber
+/workspaces/c-sharpGames/GuessANumber/bin/Debug/net7.0/GuessANumber.deps.json
+/workspaces/c-sharpGames/GuessANumber/bin/Debug/net7.0/GuessANumber.runtimeconfig.json
+/workspaces/c-sharpGames/GuessANumber/bin/Debug/net7.0/GuessANumber.dll
+/workspaces/c-sharpGames/GuessANumber/bin/Debug/net7.0/GuessANumber.pdb
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.csproj.AssemblyReference.cache
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.AssemblyInfo.cs
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.dll
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/refint/GuessANumber.dll
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.pdb
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/GuessANumber.genruntimeconfig.cache
+/workspaces/c-sharpGames/GuessANumber/obj/Debug/net7.0/ref/GuessANumber.dll
