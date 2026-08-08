@@ -6,7 +6,6 @@ Coleção de **10 jogos clássicos** implementados do zero em C#, rodando direto
 ![.NET](https://img.shields.io/badge/.NET-6%2B-512BD4?logo=dotnet)
 ![Platform](https://img.shields.io/badge/platform-console-lightgrey)
 ![Games](https://img.shields.io/badge/jogos-10-blue)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 ---
 
