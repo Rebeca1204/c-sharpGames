@@ -3,7 +3,6 @@
 /workspaces/c-sharpGames/Battleship/bin/Debug/net7.0/Battleship.runtimeconfig.json
 /workspaces/c-sharpGames/Battleship/bin/Debug/net7.0/Battleship.dll
 /workspaces/c-sharpGames/Battleship/bin/Debug/net7.0/Battleship.pdb
-/workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.csproj.AssemblyReference.cache
 /workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.GeneratedMSBuildEditorConfig.editorconfig
 /workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.AssemblyInfoInputs.cache
 /workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.pdb
 /workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.genruntimeconfig.cache
 /workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/ref/Battleship.dll
+/workspaces/c-sharpGames/Battleship/obj/Debug/net7.0/Battleship.sourcelink.json

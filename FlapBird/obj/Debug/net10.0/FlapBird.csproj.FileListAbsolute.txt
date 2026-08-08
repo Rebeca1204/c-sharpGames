@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/FlapBird/bin/Debug/net10.0/FlapBird
+/workspaces/c-sharpGames/FlapBird/bin/Debug/net10.0/FlapBird.deps.json
+/workspaces/c-sharpGames/FlapBird/bin/Debug/net10.0/FlapBird.runtimeconfig.json
+/workspaces/c-sharpGames/FlapBird/bin/Debug/net10.0/FlapBird.dll
+/workspaces/c-sharpGames/FlapBird/bin/Debug/net10.0/FlapBird.pdb
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.AssemblyInfo.cs
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.sourcelink.json
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.dll
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/refint/FlapBird.dll
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.pdb
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/FlapBird.genruntimeconfig.cache
+/workspaces/c-sharpGames/FlapBird/obj/Debug/net10.0/ref/FlapBird.dll

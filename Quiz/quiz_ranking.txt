@@ -1,0 +1,3 @@
+Rebeca|242|CSHARP|5|2
+rebeca|220|MISTO|5|2
+rebeca|122|TXT:quizExem|4|1

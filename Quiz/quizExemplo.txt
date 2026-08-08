@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────
+# ARQUIVO DE EXEMPLO — Modo "Meu Material"
+#
+# FORMATO:
+#   P: Pergunta
+#   R: Resposta correta
+#   O: OpçãoCorreta|Opção2|Opção3|Opção4   ← opcional (torna múltipla escolha)
+#   D: Dica/explicação                      ← opcional
+#
+# Regras do campo O:
+#   - Separe as opções com |
+#   - A PRIMEIRA opção em O: deve ser a CORRETA (o quiz embaralha automaticamente)
+#   - Use 2 a 4 opções
+#
+# Para respostas discursivas que aceitam sinônimos, separe com /:
+#   R: Brasília / brasília
+# ─────────────────────────────────────────────────────────
+
+P: Qual a capital do Brasil?
+R: Brasília
+D: Brasília é a capital federal desde 1960, quando substituiu o Rio de Janeiro
+
+P: Quanto é 8 × 7?
+R: 56
+
+P: Qual linguagem criou o conceito de "orientação a objetos" de forma popular?
+R: Smalltalk / C++
+D: Smalltalk é considerada a primeira OO pura; C++ popularizou o paradigma
+
+P: Qual estrutura de dados segue o princípio FIFO?
+R: Fila
+O: Fila|Pilha|Árvore|Grafo
+D: FIFO = First In, First Out — quem entra primeiro sai primeiro, como uma fila de banco
+
+P: Quantos bits tem um byte?
+R: 8
+O: 8|4|16|32
+D: 1 byte = 8 bits. Originalmente era variável, mas 8 bits se tornou padrão
+
+P: Qual é a complexidade de busca em uma HashTable ideal?
+R: O(1)
+O: O(1)|O(n)|O(log n)|O(n²)
+D: Com boa função hash e pouca colisão, acesso é constante — O(1)
+
+P: Qual protocolo é usado para navegar na web (HTTP seguro)?
+R: HTTPS
+O: HTTPS|FTP|SMTP|SSH
+D: HTTPS = HTTP + TLS/SSL. A porta padrão é 443
+
+P: O que é um 'deadlock'?
+R: Bloqueio mútuo onde dois processos esperam um pelo outro indefinidamente
+O: Bloqueio mútuo onde dois processos esperam um pelo outro indefinidamente|Quando um processo consome 100% da CPU|Erro de memória|Falha de rede
+D: Deadlock ocorre quando processo A espera B liberar recurso, e B espera A — ciclo infinito
+
+P: Quantos planetas tem o sistema solar?
+R: 8
+O: 8|9|7|10
+D: Em 2006 a IAU redefiniu planeta, e Plutão foi reclassificado como planeta anão
+
+P: Qual é o resultado de 2^10?
+R: 1024
+O: 1024|512|2048|256
+D: 2^10 = 1024. Por isso 1 KB ≈ 1024 bytes no contexto de computação

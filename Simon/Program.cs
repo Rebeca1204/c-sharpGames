@@ -1,134 +1,215 @@
 ﻿using System;
-/* Implementation of a console game like simon, for repetition of patterns */
-Random random = new Random();
-string[] options = {
-    @"           ╔══════╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚╗    ╔╝        " + '\n' +
-	@"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
-	@"    ║   ╚═══╗╚══╝╔═══╝   ║ " + '\n' +
-	@"    ║       ║    ║       ║ " + '\n' +
-	@"    ║   ╔═══╝╔══╗╚═══╗   ║ " + '\n' +
-	@"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
-	@"           ╔╝    ╚╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚══════╝        ",
-    @"           ╔══════╗        " + '\n' +
-	@"           ║██████║        " + '\n' +
-	@"           ╚╗████╔╝        " + '\n' +
-	@"    ╔═══╗   ╚╗██╔╝   ╔═══╗ " + '\n' +
-	@"    ║   ╚═══╗╚══╝╔═══╝   ║ " + '\n' +
-	@"    ║       ║    ║       ║ " + '\n' +
-	@"    ║   ╔═══╝╔══╗╚═══╗   ║ " + '\n' +
-	@"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
-	@"           ╔╝    ╚╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚══════╝        ",
-    @"           ╔══════╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚╗    ╔╝        " + '\n' +
-	@"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
-	@"    ║   ╚═══╗╚══╝╔═══╝███║ " + '\n' +
-	@"    ║       ║    ║███████║ " + '\n' +
-	@"    ║   ╔═══╝╔══╗╚═══╗███║ " + '\n' +
-	@"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
-	@"           ╔╝    ╚╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚══════╝        ",
-    @"           ╔══════╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚╗    ╔╝        " + '\n' +
-	@"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
-	@"    ║   ╚═══╗╚══╝╔═══╝   ║ " + '\n' +
-	@"    ║       ║    ║       ║ " + '\n' +
-	@"    ║   ╔═══╝╔══╗╚═══╗   ║ " + '\n' +
-	@"    ╚═══╝   ╔╝██╚╗   ╚═══╝ " + '\n' +
-	@"           ╔╝████╚╗        " + '\n' +
-	@"           ║██████║        " + '\n' +
-	@"           ╚══════╝        ",
-    @"           ╔══════╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚╗    ╔╝        " + '\n' +
-	@"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
-	@"    ║███╚═══╗╚══╝╔═══╝   ║ " + '\n' +
-	@"    ║███████║    ║       ║ " + '\n' +
-	@"    ║███╔═══╝╔══╗╚═══╗   ║ " + '\n' +
-	@"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
-	@"           ╔╝    ╚╗        " + '\n' +
-	@"           ║      ║        " + '\n' +
-	@"           ╚══════╝        ",
-};
-int score = 0;
+using System.Collections.Generic;
+using System.Threading;
 
+namespace SimonSaysGame
+{
+    class Program
+    {
+        static ConsoleColor[] cores = {
+            ConsoleColor.Gray,   
+            ConsoleColor.Cyan,   
+            ConsoleColor.Yellow, 
+            ConsoleColor.Green,  
+            ConsoleColor.Red      
+        };
 
-    
-InitializeGame();
-do {
-     // Making a pattern bigger by 1 everytime and showing
-    int[] pattern = new int[score + 1];
-    for (int i = 0; i < pattern.Length; i++){
-        pattern[i] = random.Next(1,5);
-        Console.WriteLine(options[pattern[i]]);
-        Thread.Sleep(1000);
-        // Pause between
-        Console.Clear();
-        Thread.Sleep(100);
-    }
+        static string[] options = {
+            @"           ╔══════╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚╗    ╔╝        " + '\n' +
+            @"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
+            @"    ║   ╚═══╗╚══╝╔═══╝   ║ " + '\n' +
+            @"    ║       ║    ║       ║ " + '\n' +
+            @"    ║   ╔═══╝╔══╗╚═══╗   ║ " + '\n' +
+            @"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
+            @"           ╔╝    ╚╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚══════╝        ",
+            @"           ╔══════╗        " + '\n' +
+            @"           ║██████║        " + '\n' +
+            @"           ╚╗████╔╝        " + '\n' +
+            @"    ╔═══╗   ╚╗██╔╝   ╔═══╗ " + '\n' +
+            @"    ║   ╚═══╗╚══╝╔═══╝   ║ " + '\n' +
+            @"    ║       ║    ║       ║ " + '\n' +
+            @"    ║   ╔═══╝╔══╗╚═══╗   ║ " + '\n' +
+            @"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
+            @"           ╔╝    ╚╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚══════╝        ",
+            @"           ╔══════╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚╗    ╔╝        " + '\n' +
+            @"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
+            @"    ║   ╚═══╗╚══╝╔═══╝███║ " + '\n' +
+            @"    ║       ║    ║███████║ " + '\n' +
+            @"    ║   ╔═══╝╔══╗╚═══╗███║ " + '\n' +
+            @"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
+            @"           ╔╝    ╚╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚══════╝        ",
+            @"           ╔══════╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚╗    ╔╝        " + '\n' +
+            @"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
+            @"    ║   ╚═══╗╚══╝╔═══╝   ║ " + '\n' +
+            @"    ║       ║    ║       ║ " + '\n' +
+            @"    ║   ╔═══╝╔══╗╚═══╗   ║ " + '\n' +
+            @"    ╚═══╝   ╔╝██╚╗   ╚═══╝ " + '\n' +
+            @"           ╔╝████╚╗        " + '\n' +
+            @"           ║██████║        " + '\n' +
+            @"           ╚══════╝        ",
+            @"           ╔══════╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚╗    ╔╝        " + '\n' +
+            @"    ╔═══╗   ╚╗  ╔╝   ╔═══╗ " + '\n' +
+            @"    ║███╚═══╗╚══╝╔═══╝   ║ " + '\n' +
+            @"    ║███████║    ║       ║ " + '\n' +
+            @"    ║███╔═══╝╔══╗╚═══╗   ║ " + '\n' +
+            @"    ╚═══╝   ╔╝  ╚╗   ╚═══╝ " + '\n' +
+            @"           ╔╝    ╚╗        " + '\n' +
+            @"           ║      ║        " + '\n' +
+            @"           ╚══════╝        ",
+        };
 
-    // Checking player input
-    int correct = 0;
-    for (int i = 0; i < pattern.Length; i++){
-        int play = 0;
-        switch (Console.ReadKey(true).Key){
-        case ConsoleKey.UpArrow:
-            Console.WriteLine(options[1]);
-            play = 1;
-            break;
-        case ConsoleKey.DownArrow:
-            Console.WriteLine(options[3]);
-            play = 3;
-            break;
-        case ConsoleKey.LeftArrow:
-            Console.WriteLine(options[4]);
-            play = 4;
-            break;
-        case ConsoleKey.RightArrow:
-            Console.WriteLine(options[2]);
-            play = 2;
-            break;
-        default:
-            break;
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            
+            Random random = new Random();
+            bool querJogar = true;
+
+            while (querJogar)
+            {
+                int score = 0;
+                List<int> pattern = new List<int>();
+                bool gameRunning = true;
+
+                ExibirBannerInicial();
+
+                while (gameRunning)
+                {
+                    pattern.Add(random.Next(1, 5));
+
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.WriteLine($"\n ╔═════════════════════════════════════╗");
+                    Console.WriteLine($" ║     NÍVEL {score + 1} - PREPARE-SE!           ║");
+                    Console.WriteLine($" ╚═════════════════════════════════════╝");
+                    Thread.Sleep(1200);
+                    Console.Clear();
+
+                    foreach (int step in pattern)
+                    {
+                        Console.ForegroundColor = cores[step];
+                        Console.WriteLine(options[step]);
+                        Thread.Sleep(500); 
+                        Console.Clear();
+                        Thread.Sleep(100); 
+                    }
+
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.WriteLine("SUA VEZ! Use as SETAS do teclado:");
+                    
+                    for (int i = 0; i < pattern.Count; i++)
+                    {
+                        int play = 0;
+                        ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+                        
+                        switch (keyInfo.Key)
+                        {
+                            case ConsoleKey.UpArrow:    play = 1; break;
+                            case ConsoleKey.RightArrow: play = 2; break;
+                            case ConsoleKey.DownArrow:  play = 3; break;
+                            case ConsoleKey.LeftArrow:  play = 4; break;
+                            default:                    play = -1; break; 
+                        }
+
+                        if (play != pattern[i])
+                        {
+                            Console.Clear();
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine(" ╔═════════════════════════════════════╗");
+                            Console.WriteLine(" ║        ERROU! PADRÃO INCORRETO.     ║");
+                            Console.WriteLine(" ╚═════════════════════════════════════╝");
+                            gameRunning = false;
+                            break;
+                        }
+
+                        Console.Clear();
+                        Console.ForegroundColor = cores[play];
+                        Console.WriteLine(options[play]);
+                        Thread.Sleep(250); 
+                        Console.Clear();
+                    }
+
+                    if (gameRunning)
+                    {
+                        score++;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Muito bem! Sequência correta.");
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                    }
+                }
+
+                // Tela de Game Over Estilizada
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n ╔═════════════════════════════════════╗");
+                Console.WriteLine(" ║              GAME OVER              ║");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($" ║         PONTUAÇÃO FINAL: {score}          ║");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(" ╚═════════════════════════════════════╝");
+                
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write("\n Deseja jogar novamente? (Pressione ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("'n'");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write(" para sair ou qualquer outra tecla para continuar): ");
+                
+                ConsoleKeyInfo resposta = Console.ReadKey(true);
+                
+                if (resposta.KeyChar == 'n' || resposta.KeyChar == 'N')
+                {
+                    querJogar = false;
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("\n Obrigado por jogar Simon Says! Até a próxima!\n");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Thread.Sleep(2000);
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(" Reiniciando o jogo... Se prepare!");
+                    Thread.Sleep(1500);
+                    Console.Clear();
+                }
+            }
         }
 
-        // Exit if any other keys are pressed
-        if (play == 0) break;
-
-        // Checking the pattern
-        if (play == pattern[i]){
-            correct++;
-            Thread.Sleep(1000);
+        static void ExibirBannerInicial()
+        {
             Console.Clear();
-        }else{
-            Console.WriteLine("Wrong pattern! You lose!");
-            break;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(@"  _____                           _____                     ");
+            Console.WriteLine(@" / ____|                         / ____|                    ");
+            Console.WriteLine(@"| (___  _   _ _ __ ___   ___  _ _| (___   __ _ _   _ ___    ");
+            Console.WriteLine(@" \___ \| | | | '_ ` _ \ / _ \| '_ \___ \ / _` | | | / __|   ");
+            Console.WriteLine(@" ____) | |_| | | | | | | (_) | | | |__) | (_| | |_| \__ \   ");
+            Console.WriteLine(@"|_____/ \__, |_| |_| |_|\___/|_| |_|____/\__,_|\__, |___/   ");
+            Console.WriteLine(@"         __/ |                                  __/ |       ");
+            Console.WriteLine(@"        |___/                                  |___/       ");
+            Console.WriteLine("\n");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine(options[0]);
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(" >>> Pressione QUALQUER TECLA para começar o desafio... <<<");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.ReadKey(true);
+            Console.Clear();
         }
     }
-    // If the whole pattern is correct
-    if (correct == score + 1){
-        // Increments score and size of next pattern
-        score++;
-        Console.WriteLine("Correct! Next level!");
-        Thread.Sleep(1000);
-        Console.Clear();
-    }else break;
-}while(true);
-
-// Showing score
-Console.WriteLine($"Score: {score}");
-   
-void InitializeGame(){
-    Console.WriteLine(options[0]);
-    Thread.Sleep(1000);
-    Console.Clear();
 }
-

@@ -1,0 +1,15 @@
+/workspaces/c-sharpGames/Pacman/bin/Debug/net10.0/Pacman
+/workspaces/c-sharpGames/Pacman/bin/Debug/net10.0/Pacman.deps.json
+/workspaces/c-sharpGames/Pacman/bin/Debug/net10.0/Pacman.runtimeconfig.json
+/workspaces/c-sharpGames/Pacman/bin/Debug/net10.0/Pacman.dll
+/workspaces/c-sharpGames/Pacman/bin/Debug/net10.0/Pacman.pdb
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.AssemblyInfoInputs.cache
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.AssemblyInfo.cs
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.csproj.CoreCompileInputs.cache
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.sourcelink.json
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.dll
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/refint/Pacman.dll
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.pdb
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/Pacman.genruntimeconfig.cache
+/workspaces/c-sharpGames/Pacman/obj/Debug/net10.0/ref/Pacman.dll

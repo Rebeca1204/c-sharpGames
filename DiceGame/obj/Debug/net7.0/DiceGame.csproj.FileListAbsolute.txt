@@ -3,7 +3,6 @@
 /workspaces/c-sharpGames/DiceGame/bin/Debug/net7.0/DiceGame.runtimeconfig.json
 /workspaces/c-sharpGames/DiceGame/bin/Debug/net7.0/DiceGame.dll
 /workspaces/c-sharpGames/DiceGame/bin/Debug/net7.0/DiceGame.pdb
-/workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.csproj.AssemblyReference.cache
 /workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.GeneratedMSBuildEditorConfig.editorconfig
 /workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.AssemblyInfoInputs.cache
 /workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.pdb
 /workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.genruntimeconfig.cache
 /workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/ref/DiceGame.dll
+/workspaces/c-sharpGames/DiceGame/obj/Debug/net7.0/DiceGame.sourcelink.json
